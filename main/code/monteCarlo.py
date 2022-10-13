@@ -1,8 +1,7 @@
 import random
 
 
-
-def Buffon(quantAgulha: int):
+def Mcarlo(quantAgulha = 2000):
 
     quantAgulhaDentro = 0
 

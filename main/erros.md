@@ -1,4 +1,4 @@
-# Erros com os quais me deparei e suas resoluções 😬
+# Erros com os quais me deparei e suas resoluções 
 
   >
   
@@ -24,12 +24,12 @@
    - [docs.python](https://docs.python.org/3/library/sys.html)
   >
 
-
+---
 #### 2. Erro:
 
  > standard_init_linux.go:228: exec user process caused: exec format error
 
-- Esqueci de adicionar o shebang no aquivo [medidor.py](medidor.py) (#!) 😑
+- Esqueci de adicionar o shebang no aquivo [medidor.py](medidor.py) (#!) 
 -  Refere-se a um conjunto de caracteres exclusivos incluídos no início de um arquivo de script. Um shebang define o tipo e o caminho do programa que deve executar o script.
   
 #### 2.1 Solução 

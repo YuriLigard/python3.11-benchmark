@@ -2,7 +2,7 @@
 
 export PYTHONPATH="${PYTHONPATH}:$PWD/main"
 
-for algoritmo in Mcarlo
+for algoritmo in Mcarlo BuscaBinaria BuscaBinariaRecursiva QuickSort SeqFibonacci SeqFibonacciRecursiva
 do
 
     tempoBase="$(docker run -it --rm -v $PWD/main:/main python:$1 /main/medidor.py $algoritmo $2)"

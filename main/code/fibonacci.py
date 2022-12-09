@@ -6,7 +6,7 @@ class Fibonacci:
     def __init__(self) -> None:
         self.sequence: list[int] = [0, 1]
         
-    def fibonacci(self, end: int) -> list:
+    def fibonacci(self, end: int = 10) -> list:
         
         if end <= 1:
             return end
@@ -20,7 +20,7 @@ class Fibonacci:
 
         return self.sequence
         
-    def fibonacci_recursion(self, index: int) -> list:
+    def fibonacci_recursion(self, index: int = 10) -> list:
        
         if (difference := index - (len(self.sequence) - 2)) >= 1:
             for _ in range(difference):

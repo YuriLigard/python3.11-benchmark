@@ -28,11 +28,11 @@ if __name__ == '__main__':
         tm = measurer(algoritmo=quicksort, loop=int(sys.argv[2]))
     elif sys.argv[1] == "SeqFibonacci":
         fibonacci = Fibonacci()
-        tm = measurer(algoritmo=fibonacci.fibonacce, loop=int(sys.argv[2]))
+        tm = measurer(algoritmo=fibonacci.fibonacci, loop=int(sys.argv[2]))
     elif sys.argv[1] == "SeqFibonacciRecursiva":
         fibonacci = Fibonacci()
         tm = measurer(algoritmo=fibonacci.fibonacci_recursion, loop=int(sys.argv[2]))
     else:
         tm = 0.00
 
-    print(f"{tm:.4f}")
+    print(f"{tm:.10f}")
